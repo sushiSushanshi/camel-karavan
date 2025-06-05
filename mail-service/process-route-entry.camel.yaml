@@ -1,0 +1,11 @@
+- route:
+    id: process-route-entry
+    from:
+      id: from-e60b
+      uri: direct
+      parameters:
+        name: process-route-entry
+      steps:
+        - log:
+            id: log-0e14
+            message: route started
